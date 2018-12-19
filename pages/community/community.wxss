@@ -1,0 +1,86 @@
+/* pages/community/community.wxss */
+.post-list{
+  margin-top: 50rpx;
+  background: rgb(243, 243, 243);
+}
+.post-box{
+  display:inline-block;
+  width: 95%;
+  margin: 10rpx auto;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  background: #fff;
+}
+.publisher{
+  display:block;
+  width: 100%;
+  height: 30rpx;
+  padding-top: 10rpx;
+  margin-bottom: 10rpx;
+} 
+.publisher image{
+  float: left;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 25rpx;
+}
+.publisher .username{
+  float: left;
+  padding: 5rpx 10rpx; 
+  background: #fff;
+  font-size: 14rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+}
+.Lv{
+  margin: 6rpx 5rpx;
+  float: left;
+  font-size: 10rpx;
+  color: #fff;
+  padding: 2rpx 6rpx;
+  border-radius: 3rpx;
+  background: #b4b4b4;
+}
+.post-content{
+  display: inline-block;
+  margin-top: 10rpx;
+  width: 100%;
+  max-height: 300rpx;
+  line-height: 30rpx;
+}
+.post-content .title{
+  margin: 5rpx 0;
+  width: 100%;
+  font-size: 25rpx;
+}
+.post-content .content{
+  margin: 0;
+}
+.content text{
+  font-size: 18rpx;
+  color: #8b8b8b;
+  float: left;
+  -webkit-line-clamp:3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+.post-content image{
+  margin-right: 10rpx;
+  width: 250rpx;
+  height: 150rpx;
+}
+.foot{
+  width: 100%;
+  height: 20rpx;
+  line-height: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  color: #dddddd;
+  font-size: 16rpx;
+}
+.foot .category{
+  
+}
